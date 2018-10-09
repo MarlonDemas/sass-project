@@ -7,7 +7,9 @@ Sass stands for Syntactically Awesome Stylesheets. It's a way simplyfy your CSS 
 ## Setting up your workspace: 
 Step 1: Verify that Ruby is installed by runnning the command: ruby --version
 
-Step 2: If you do not have ruby installed, download and istall ruby from the following website: https://rubyinstaller.org then repeat step 1 to confirm ruby is installed.
+Step 2: If you do not have ruby installed, download and istall ruby from the following website: https://rubyinstaller.org 
+
+then repeat step 1 to confirm ruby is installed.
 
 Step 3: Install sass using the terminal with the command: gem install sass
        
