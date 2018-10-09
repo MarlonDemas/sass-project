@@ -1,10 +1,10 @@
 # sass-project
-#Intoduction to SASS
+# Intoduction to SASS
 This is an introduction to using "Sass" to make my webpages look crispy.
 
 Sass stands for Syntactically Awesome Stylesheets. It's a way simplyfy your CSS workflow, making development and maintenaince tasks easier.
 
-##Setting up your workspace: 
+## Setting up your workspace: 
 Step 1: Verify that Ruby is installed by runnning the command: ruby --version
 
 Step 2: If you do not have ruby installed, download and istall ruby from the following website: https://rubyinstaller.org then repeat step 1 to confirm ruby is installed.
@@ -24,12 +24,12 @@ Step 8: Clone the project folder onto your desktop using the git clone command.
 
 Step 9: cd into your project folder and create all your base folders and the index.html file
         Base folders:
-        -- css
-        -- images
-        -- scss
+        - css
+        - images
+        - scss
 
 Step 10: Finally in your terminal type the command: sass --watch sass:css
 
 
-##Live Link
+## Live Link
 https://marlondemas.github.io/sass-project/index.html
