@@ -1,6 +1,7 @@
 /*Base styles*/
 body {
-  background-color: #bada55; }
+  background-color: #bada55;
+  text-align: center; }
   body h1 {
     font-size: 3.125em; }
   body p {
