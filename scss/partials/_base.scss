@@ -1,11 +1,16 @@
 /*Base styles*/
+html {
+    scroll-behavior: smooth;
+}
 
 body {
-    // background-color: $primary-color;
+    background-color: $primary-color;
+    font-family: 'Concert One', cursive;
+    margin: 0;
 
     h1 {
         font-size: $font-size1;
-        font-family: 'Mali', cursive;
+        font-family: 'Luckiest Guy', cursive;
         text-shadow: 3px 3px 3px black;
         font-weight: 900;
     }
@@ -16,29 +21,52 @@ body {
     }
 
     header {
-        height: 50vh;
-        background-image: url(../../img/waterfall6928616564.jpg);
+        height: 100vh;
+        background-image: url(../../img/bench-cascade-creek-355321.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        color: #f0e68c;
+        color: skyblue;
         text-align: center;
         background-attachment: fixed;
         position: relative;
+        width: 100%;
+        margin: 0;
+        padding: 0;
 
         div {
             position: absolute;
-            top: 50%;
+            top: 45%;
             left: 50%;
             transform: translate(-50%, -50%);
         }
         span {
-            display: none;
+            font-weight: 900;
+            text-shadow: 3px 3px 3px black;
+            font-size: $font-size2;
+            font-family: 'Luckiest Guy', cursive;
         }
         img {
             width: 30px;
             height: 30px;
             position: relative;
-            top: 13vh;
+            top: 40vh;
+        }
+    }
+
+    h2 {
+        color: black;
+        font-size: $font-size3;
+    }
+
+    a {
+        &:link {
+            color: #c4d3bf;
+            text-decoration: none;
+        }
+
+        &:hover {
+            color: white;
+            text-decoration: underline;
         }
     }
 }
