@@ -1,10 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Mali|Niramit");
 /*Base styles*/
-body {
-  background-color: #bada55; }
-  body h1 {
-    font-size: 3.125em; }
-  body p {
-    font-size: 2.125em;
-    color: #f0f; }
+body h1 {
+  font-size: 3.125em;
+  font-family: 'Mali', cursive;
+  text-shadow: 3px 3px 3px black;
+  font-weight: 900; }
+body p {
+  font-size: 2.125em;
+  color: #f0f; }
+body header {
+  height: 50vh;
+  background-image: url(../../img/waterfall6928616564.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #f0e68c;
+  text-align: center;
+  background-attachment: fixed;
+  position: relative; }
+  body header div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  body header span {
+    display: none; }
+  body header img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 13vh; }
 
 /*# sourceMappingURL=styles.css.map */

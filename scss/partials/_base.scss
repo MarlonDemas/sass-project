@@ -1,14 +1,44 @@
 /*Base styles*/
 
 body {
-    background-color: $primary-color;
+    // background-color: $primary-color;
 
     h1 {
         font-size: $font-size1;
+        font-family: 'Mali', cursive;
+        text-shadow: 3px 3px 3px black;
+        font-weight: 900;
     }
 
     p {
         font-size: $font-size2;
         color: $text-color;
+    }
+
+    header {
+        height: 50vh;
+        background-image: url(../../img/waterfall6928616564.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #f0e68c;
+        text-align: center;
+        background-attachment: fixed;
+        position: relative;
+
+        div {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        span {
+            display: none;
+        }
+        img {
+            width: 30px;
+            height: 30px;
+            position: relative;
+            top: 13vh;
+        }
     }
 }
