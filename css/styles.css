@@ -49,20 +49,44 @@ body {
   100% {
     transform: translateY(20px); } }
   body h2 {
-    color: black;
-    font-size: 2.4em; }
+    color: white;
+    font-size: 2.4em;
+    text-align: center;
+    background-color: #003311; }
+  body h3 {
+    color: white;
+    font-size: 2.4em;
+    text-align: center;
+    background-color: #003311;
+    font-size: 2em; }
   body a:link {
+    color: #c4d3bf;
+    text-decoration: none; }
+  body a:visited {
     color: #c4d3bf;
     text-decoration: none; }
   body a:hover {
     color: white;
     text-decoration: underline; }
-  body .resorts img {
+  body ul {
+    font-size: 1.2em; }
+  body ol {
+    color: white;
+    font-size: 1.3em; }
+  body .secondary-content img {
     display: block;
     margin: auto;
     width: 70%;
     height: 70vh;
     box-shadow: 2px 2px 2px black, -2px -2px 2px black;
     margin-top: 3vh; }
+  body footer {
+    color: white;
+    font-size: 2.4em;
+    text-align: center;
+    background-color: #003311;
+    font-size: 1em; }
+    body footer a {
+      color: #c4d3bf; }
 
 /*# sourceMappingURL=styles.css.map */

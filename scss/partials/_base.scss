@@ -60,12 +60,21 @@ body {
     }
 
     h2 {
-        color: black;
-        font-size: $font-size3;
+        @include headings;
+    }
+
+    h3 {
+        @include headings;
+        font-size: $font-size4;
     }
 
     a {
         &:link {
+            color: #c4d3bf;
+            text-decoration: none;
+        }
+
+        &:visited {
             color: #c4d3bf;
             text-decoration: none;
         }
@@ -76,7 +85,16 @@ body {
         }
     }
 
-    .resorts img {
+    ul {
+        font-size: 1.2em;
+    }
+
+    ol {
+        color: white;
+        font-size: 1.3em;
+    }
+
+    .secondary-content img {
         display: block;
         margin: auto;
         width: 70%;
@@ -84,5 +102,14 @@ body {
         box-shadow: 2px 2px 2px black,
                     -2px -2px 2px black;
         margin-top: 3vh;
+    }
+
+    footer {
+        @include headings;
+        font-size: 1em;
+
+        a {
+            color: #c4d3bf;
+        }
     }
 }
