@@ -50,7 +50,13 @@ body {
             height: 30px;
             position: relative;
             top: 40vh;
+            animation: mover .8s infinite  alternate;
         }
+        @keyframes mover {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(20px); }
+        }
+        
     }
 
     h2 {
@@ -68,5 +74,15 @@ body {
             color: white;
             text-decoration: underline;
         }
+    }
+
+    .resorts img {
+        display: block;
+        margin: auto;
+        width: 70%;
+        height: 70vh;
+        box-shadow: 2px 2px 2px black,
+                    -2px -2px 2px black;
+        margin-top: 3vh;
     }
 }
