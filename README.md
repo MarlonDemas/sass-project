@@ -39,3 +39,7 @@ Step 10: Finally in your terminal type the command: sass --watch sass:css
 
 ## Live Link
 https://marlondemas.github.io/sass-project/index.html
+
+## Introduction to partials
+
+A partial is simply a Sass file named with a leading underscore. You might name it something like _partial.scss . The underscore lets Sass know that the file is only a partial file and that it should not be generated into a CSS file. Sass partials are used with the @import directive.
